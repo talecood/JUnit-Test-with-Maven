@@ -11,9 +11,6 @@ public class MathUtils {
 		return a-b;
 	}
 	public int division(int pay,int payda) {
-		if(payda == 0) {
-			return -1;
-		}
 		return (pay/payda);
 	}
 	public int multiplication(int a,int b) {
