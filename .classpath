@@ -14,15 +14,15 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -36,5 +36,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/nedim göktuğ tabak/Desktop/Software/Java Maven JAR/hamcrest-2.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/nedim göktuğ tabak/Desktop/Software/Java Maven JAR/mockito-core-5.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nedim göktuğ tabak/Desktop/Software/Java Maven JAR/assertj-core-3.26.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nedim göktuğ tabak/Desktop/Software/Java Maven JAR/junitparams.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nedim göktuğ tabak/Desktop/Software/Java Maven JAR/catch-exception/catch-exception-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nedim göktuğ tabak/Desktop/Software/Java Maven JAR/catch-exception/catch-throwable-1.2.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

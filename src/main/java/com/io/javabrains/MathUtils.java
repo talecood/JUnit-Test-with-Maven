@@ -1,4 +1,4 @@
-package io.javabrains;
+package com.io.javabrains;
 
 public class MathUtils {
 	public static final double E = 2.7182;	 //Doðal Logaritmik Taban

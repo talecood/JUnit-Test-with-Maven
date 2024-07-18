@@ -1,9 +1,10 @@
-package io.javabrains;
+package com.io.unittest.javabrains.mathutils;
 
-import io.javabrains.MathUtils;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.*;
 import org.junit.jupiter.api.*;
+
+import com.io.javabrains.MathUtils;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilsTest {
