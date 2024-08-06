@@ -14,7 +14,7 @@ import com.io.javabrains.Calculator;
 @RunWith(Parameterized.class)
 public class ParameterTest{
 
-	private Calculator calculator = new Calculator();
+	public Calculator calculator = new Calculator();
 	
 	@Parameterized.Parameters
 	public static Collection<Object> data(){
@@ -40,4 +40,6 @@ public class ParameterTest{
 	public void testMultiply()throws Exception {
 		assertEquals(total,calculator.multiply(a, b));
 	}
+	
+	
 }
